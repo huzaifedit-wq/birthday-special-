@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise 🎀</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="website">
+
+        <!-- Decorative elements -->
+        <div class="sparkle sparkle-1">✦</div>
+        <div class="sparkle sparkle-2">✧</div>
+        <div class="heart heart-1">♡</div>
+        <div class="heart heart-2">♡</div>
+
+        <!-- PAGE 1 -->
+        <section class="page intro-page">
+
+            <div class="cat-area">
+
+                <div class="speech-bubble">
+                    pspsps... 👀
+                </div>
+
+                <div class="cat">
+                    🐱
+                </div>
+
+            </div>
+
+            <div class="intro-content">
+
+                <p class="small-text">
+                    I made something for you...
+                </p>
+
+                <h1>
+                    HEYY!!
+                </h1>
+
+                <h2>
+                    <span id="name">ZUVEE</span> 💗
+                </h2>
+
+                <p class="intro-description">
+                    Before you go anywhere...
+                    I have a little surprise waiting for you.
+                </p>
+
+                <button id="startButton" class="main-button">
+                    START ✨
+                </button>
+
+            </div>
+
+        </section>
+<!-- PAGE 2 -->
+<section class="page question-page" id="page2">
+
+    <div class="question-cat">
+        🐱
+    </div>
+
+    <div class="question-content">
+
+        <p class="small-text">
+            wait... 👀
+        </p>
+
+        <h2 class="question-title">
+            You thought<br>
+            that was it?
+        </h2>
+
+        <p class="question-text">
+            I have a little surprise waiting for you...
+        </p>
+
+        <p class="question">
+            Are you ready? 💗
+        </p>
+
+        <div class="question-buttons">
+
+            <button id="yesButton" class="choice-button yes-button">
+                YES 💗
+            </button>
+
+            <button id="noButton" class="choice-button no-button">
+                NO 😐
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- PAGE 3 -->
+<section class="page birthday-page" id="page3">
+
+    <div class="birthday-sparkles">
+        ✦　♡　✦
+    </div>
+
+    <div class="birthday-content">
+
+        <p class="birthday-small">
+            today is a little more special...
+        </p>
+
+        <h1 class="birthday-title">
+            HAPPY<br>
+            BIRTHDAY!
+        </h1>
+
+       <div class="photo-wrapper">
+
+    <div class="photo-heart heart-a">♡</div>
+    <div class="photo-heart heart-b">♥</div>
+    <div class="photo-heart heart-c">♡</div>
+
+    <div class="birthday-photo">
+        <img src="assets/photos/photo-01.jpg" alt="Birthday memory">
+    </div>
+
+</div>
+
+        <h2 class="birthday-name">
+            ZUVARIYA 🎀
+        </h2>
+
+        <p class="birthday-message">
+            I hope your day is filled with
+            everything that makes you smile. 💗
+        </p>
+
+        <button id="memoryButton" class="main-button">
+           A LITTLE SURPRISE  ✨
+        </button>
+
+    </div>
+
+</section>
+<!-- PAGE 4 - A LITTLE SOMETHING -->
+<section class="page memories-page" id="page4">
+
+  <div class="surprise-content">
+
+    <p class="small-text">just a little something...</p>
+
+    <h1 class="surprise-title">
+      A Little Something<br>
+      For You ♡
+    </h1>
+
+    <div class="surprise-cat">🐱</div>
+
+    <p class="surprise-hint">
+      Tap each little card ✨
+    </p>
+
+    <div class="surprise-cards">
+
+      <button class="surprise-card"
+        data-message="You make ordinary days feel a little nicer. ♡">
+
+        <span class="card-icon">🎀</span>
+        <span class="card-label">A tiny compliment</span>
+        <span class="card-message"></span>
+
+      </button>
+
+
+      <button class="surprise-card"
+        data-message="I hope today gives you a hundred little reasons to smile. 💗">
+
+        <span class="card-icon">💌</span>
+        <span class="card-label">A little message</span>
+        <span class="card-message"></span>
+
+      </button>
+
+
+      <button class="surprise-card"
+        data-message="And yes... I spent way too much time making this. 😭✨">
+
+        <span class="card-icon">✨</span>
+        <span class="card-label">One more thing</span>
+        <span class="card-message"></span>
+
+      </button>
+
+    </div>
+
+    <button id="letterButton" class="main-button next-hidden">
+      OPEN THE LETTER 💌
+    </button>
+
+  </div>
+  
+</section>
+
+<!-- PAGE 5 - LETTER COLLECTION -->
+
+<section class="page letter-page" id="page5">
+
+  <div class="mail-content">
+
+    <p class="small-text">a little mail, just for you ♡</p>
+
+    <h1 class="mail-title">
+      A Little Mail<br>
+      For You
+    </h1>
+
+    <p class="mail-subtitle">
+      I wrote a few little things...
+    </p>
+
+    <div class="letter-stack">
+
+      <button class="letter-card letter-one" data-letter="1">
+        <span class="letter-number">01</span>
+        <span class="letter-card-title">A Tiny Note</span>
+        <span class="letter-card-subtitle">just for your birthday 🎀</span>
+        <span class="letter-stamp">♡</span>
+      </button>
+
+      <button class="letter-card letter-two" data-letter="2">
+        <span class="letter-number">02</span>
+        <span class="letter-card-title">Something I Wanted To Say</span>
+        <span class="letter-card-subtitle">open when you're smiling 💌</span>
+        <span class="letter-stamp">✦</span>
+      </button>
+
+      <button class="letter-card letter-three" data-letter="3">
+        <span class="letter-number">03</span>
+        <span class="letter-card-title">One More Thing...</span>
+        <span class="letter-card-subtitle">before the surprise continues ✨</span>
+        <span class="letter-stamp">♡</span>
+      </button>
+
+    </div>
+
+    <p class="mail-hint">
+      tap a letter to open it
+    </p>
+<button id="gamesButton" class="main-button">
+    PLAY SOME GAMES 🎮
+</button>
+  </div>
+
+
+  <!-- OPEN LETTER -->
+<!-- FLOATING CANVA LETTER -->
+
+<div class="letter-modal" id="letterModal">
+
+    <button class="close-letter" id="closeLetter">×</button>
+
+    <div class="floating-letter">
+
+        <img
+            id="openedLetterImage"
+            src=""
+            alt="Birthday letter"
+        >
+
+    </div>
+
+</div>
+</section>
+<!-- =========================
+     PAGE 6 - MINI GAME ARCADE
+========================= -->
+
+<section class="page games-page" id="page6">
+
+    <div class="games-content">
+
+        <p class="games-kicker">
+            ♡ A LITTLE PLAY BREAK ♡
+        </p>
+
+        <h1 class="games-title">
+            Mini Game<br>
+            Arcade 🎮
+        </h1>
+
+        <p class="games-subtitle">
+            Pick a little game and have some fun, Zuvee ♡
+        </p>
+
+        <div class="game-list">
+
+            <!-- GAME 01 -->
+
+            <button class="game-card balloon-game-card" id="balloonGame">
+
+                <div class="game-card-icon">
+                    🎈
+                </div>
+
+                <div class="game-card-info">
+
+                    <span class="game-card-number">
+                        GAME 01
+                    </span>
+
+                    <span class="game-card-title">
+                        Balloon Pop
+                    </span>
+
+                    <span class="game-card-description">
+                        Pop 10 balloons and make them fly away!
+                    </span>
+
+                </div>
+
+                <span class="game-play">
+                    PLAY
+                    <span>→</span>
+                </span>
+
+            </button>
+
+
+            <!-- GAME 02 -->
+
+            <button class="game-card hearts-game-card" id="heartsGame">
+
+                <div class="game-card-icon">
+                    💗
+                </div>
+
+                <div class="game-card-info">
+
+                    <span class="game-card-number">
+                        GAME 02
+                    </span>
+
+                    <span class="game-card-title">
+                        Find The Hearts
+                    </span>
+
+                    <span class="game-card-description">
+                        Five tiny hearts are hiding somewhere...
+                    </span>
+
+                </div>
+
+                <span class="game-play">
+                    PLAY
+                    <span>→</span>
+                </span>
+
+            </button>
+
+
+            <!-- GAME 03 -->
+
+            <button class="game-card gift-game-card" id="giftGame">
+
+                <div class="game-card-icon">
+                    🎁
+                </div>
+
+                <div class="game-card-info">
+
+                    <span class="game-card-number">
+                        GAME 03
+                    </span>
+
+                    <span class="game-card-title">
+                        Mystery Gift
+                    </span>
+
+                    <span class="game-card-description">
+                        Pick a gift... maybe there's a surprise inside.
+                    </span>
+
+                </div>
+
+                <span class="game-play">
+                    PLAY
+                    <span>→</span>
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <!-- ALL GAMES COMPLETE -->
+
+        <div class="games-complete" id="gamesComplete">
+
+            <div class="complete-sparkle">
+                ✨
+            </div>
+
+            <h2>
+                You did it!
+            </h2>
+
+            <p>
+                All three little games are complete ♡
+            </p>
+
+            <button
+                class="main-button"
+                id="continueFromGames"
+            >
+                CONTINUE TO THE SURPRISE ✨
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- GAME POPUP -->
+
+    <div class="game-modal" id="gameModal">
+
+        <button
+            class="close-game"
+            id="closeGame"
+        >
+            ×
+        </button>
+
+        <div class="game-window">
+
+            <div
+                class="game-screen"
+                id="gameScreen"
+            >
+            </div>
+
+        </div>
+
+    </div>
+<div class="games-complete-box" id="gamesComplete" style="display: none;">
+
+    <div class="games-complete-stickers">
+        ✦ ♡ ✦
+    </div>
+
+    <h2>YOU DID IT! 🎉</h2>
+
+    <p>
+        All three little games are complete.
+        One last surprise is waiting for you... ♡
+    </p>
+
+    <button
+        id="continueFromGames"
+        class="main-button"
+        type="button"
+    >
+        ONE LAST SURPRISE 🎂
+    </button>
+
+</div>
+</section>
+<!-- =========================
+     PAGE 7 — CAKE CUTTING
+========================= -->
+
+<section class="page cake-page" id="page7">
+
+    <div class="cake-content">
+
+        <!-- TOP LABEL -->
+
+        <div class="cake-top-sticker">
+            <span>♡</span>
+            ONE LAST LITTLE SURPRISE
+            <span>♡</span>
+        </div>
+
+
+        <!-- TITLE -->
+
+        <p class="cake-kicker">
+            IT'S YOUR SPECIAL DAY
+        </p>
+
+        <h1 class="cake-title">
+            Make A Wish
+        </h1>
+
+        <p class="cake-subtitle">
+            Tap the candles, make a little wish,<br>
+            then cut your birthday cake ♡
+        </p>
+
+
+        <!-- =====================
+             BIRTHDAY SCENE
+        ====================== -->
+
+        <div class="birthday-scene" id="cakeScene">
+
+
+            <!-- BALLOONS -->
+
+            <div class="birthday-balloon balloon-pink">
+                <span></span>
+            </div>
+
+            <div class="birthday-balloon balloon-cream">
+                <span></span>
+            </div>
+
+            <div class="birthday-balloon balloon-green">
+                <span></span>
+            </div>
+
+
+            <!-- FLOATING STICKERS -->
+
+            <span class="cake-sticker sticker-star-one">
+                ✦
+            </span>
+
+            <span class="cake-sticker sticker-star-two">
+                ✧
+            </span>
+
+            <span class="cake-sticker sticker-heart-one">
+                ♡
+            </span>
+
+            <span class="cake-sticker sticker-heart-two">
+                ♥
+            </span>
+
+            <span class="cake-sticker sticker-sparkle">
+                ✦
+            </span>
+
+
+            <!-- BIRTHDAY BANNER -->
+
+            <div class="mini-banner">
+
+                <span>H</span>
+                <span>B</span>
+                <span>D</span>
+                <span>!</span>
+
+            </div>
+
+
+            <!-- =====================
+                 CAKE
+            ====================== -->
+
+            <div class="graphic-cake" id="graphicCake">
+
+
+                <!-- CANDLES -->
+
+                <div class="cake-candles">
+
+                    <button
+                        class="graphic-candle"
+                        type="button"
+                        aria-label="Candle one"
+                    >
+                        <span class="candle-flame"></span>
+                    </button>
+
+                    <button
+                        class="graphic-candle"
+                        type="button"
+                        aria-label="Candle two"
+                    >
+                        <span class="candle-flame"></span>
+                    </button>
+
+                    <button
+                        class="graphic-candle"
+                        type="button"
+                        aria-label="Candle three"
+                    >
+                        <span class="candle-flame"></span>
+                    </button>
+
+                </div>
+
+
+                <!-- ICING -->
+
+                <div class="cake-icing">
+
+                    <span class="icing-drip drip-one"></span>
+
+                    <span class="icing-drip drip-two"></span>
+
+                    <span class="icing-drip drip-three"></span>
+
+                    <span class="icing-drip drip-four"></span>
+
+                </div>
+
+
+                <!-- CAKE BODY -->
+
+                <div class="cake-body">
+
+                    <span class="cake-stripe stripe-one"></span>
+
+                    <span class="cake-stripe stripe-two"></span>
+
+                    <span class="cake-stripe stripe-three"></span>
+
+                </div>
+
+
+                <!-- CAKE BOTTOM -->
+
+                <div class="cake-base">
+
+                    <span class="cake-decoration deco-one">
+                        ♡
+                    </span>
+
+                    <span class="cake-decoration deco-two">
+                        ♡
+                    </span>
+
+                    <span class="cake-decoration deco-three">
+                        ✦
+                    </span>
+
+                </div>
+
+
+                <!-- CAKE PLATE -->
+
+                <div class="cake-plate"></div>
+
+            </div>
+
+
+            <!-- LITTLE NOTE -->
+
+            <div class="sticker-note">
+
+                <span>
+                    made with love
+                </span>
+
+                <strong>
+                    FOR ZUVEE ♡
+                </strong>
+
+            </div>
+
+
+            <!-- BOW -->
+
+            <div class="sticker-bow">
+                🎀
+            </div>
+
+
+            <!-- SMALL GROUND HEARTS -->
+
+            <div class="ground-heart ground-heart-one">
+                ♡
+            </div>
+
+            <div class="ground-heart ground-heart-two">
+                ✦
+            </div>
+
+        </div>
+
+
+        <!-- INSTRUCTION -->
+
+        <p
+            class="cake-instruction"
+            id="cakeInstruction"
+        >
+            Tap all three candles to make your wish ✨
+        </p>
+
+
+        <!-- CUT CAKE -->
+
+        <button
+            id="cutCakeButton"
+            class="main-button cake-button"
+            type="button"
+            disabled
+        >
+            CUT THE CAKE 🎂
+        </button>
+
+
+        <!-- FINAL MESSAGE -->
+
+        <div
+            class="cake-message"
+            id="cakeMessage"
+        >
+
+            <div class="cake-message-stickers">
+                ✦　♡　🎀　♡　✦
+            </div>
+
+            <h2>
+                Happy Birthday, Zuvee! 💗
+            </h2>
+
+            <p>
+                I hope this year brings you
+                countless reasons to smile,
+                beautiful memories,
+                and lots of little happy moments.
+            </p>
+
+            <div class="cake-message-bottom">
+                made especially for you ♡
+            </div>
+<button
+    id="cakeNextButton"
+    class="main-button"
+    type="button"
+>
+    CLICK HERE CUTIE ♡
+</button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     PAGE 8 — FLOATING PHOTOS
+========================= -->
+
+<section class="page floating-photos-page" id="page8">
+
+    <div class="floating-photo-stage">
+<img
+    src="assets/page8-background.png"
+    class="page8-background"
+    alt=""
+>
+       <!-- PHOTO 01 — HEART SHAPE -->
+
+<div class="floating-photo photo-heart">
+
+    <div class="heart-photo-frame">
+        <img
+            src="assets/photos/photo-01.jpg"
+            alt="Photo 1"
+        >
+    </div>
+
+</div>
+        <!-- PHOTO 02 — POLAROID -->
+        <div class="floating-photo photo-02">
+            <div class="photo-polaroid-frame">
+                <img
+                    src="assets/photos/photo-02.jpg"
+                    alt="Photo 2"
+                >
+            </div>
+
+            <span class="photo-sticker">♡</span>
+        </div>
+
+
+        <!-- PHOTO 03 — ROUNDED -->
+        <div class="floating-photo photo-03">
+            <div class="photo-round-frame">
+                <img
+                    src="assets/photos/photo-03.jpg"
+                    alt="Photo 3"
+                >
+            </div>
+
+            <span class="photo-sticker">✦</span>
+        </div>
+
+
+        <!-- PHOTO 04 — ARCH -->
+        <div class="floating-photo photo-04">
+            <div class="photo-arch-frame">
+                <img
+                    src="assets/photos/photo-04.jpg"
+                    alt="Photo 4"
+                >
+            </div>
+
+            <span class="photo-sticker">♥</span>
+        </div>
+
+
+        <!-- SMALL FLOATING DECORATIONS -->
+
+        <span class="float-deco deco-heart">♡</span>
+        <span class="float-deco deco-star">✦</span>
+        <span class="float-deco deco-sparkle">✧</span>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
